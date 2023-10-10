@@ -1,7 +1,7 @@
-#include <iostream>
+#include "spdlog/spdlog.h"
 
 int main(int argc, char *argv[])
 {
-    std::cout << "Service started\n";
+    spdlog::info("Service deploymentManager started");
     return 0;
 }
